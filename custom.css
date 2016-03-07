@@ -1,0 +1,91 @@
+body {
+  background: #000 url(background.png) center top no-repeat;
+  font-family: 'Lato', sans-serif;
+  color: #FFF;
+  text-align: center;
+}
+
+header {
+  margin: 80px auto;
+}
+
+strong {
+  display: block;
+  font-size: 1.6em;
+}
+
+span {
+  font-size: .8em;
+}
+
+.row > div {
+  border: 2px solid #CCC;
+  border-radius: 3em;
+  padding: 5px 0;
+}
+
+form {
+  margin: 50px auto 30px;
+}
+
+.email input {
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+  color: #FFF;
+}
+
+.email input:focus {
+  box-shadow: none;
+}
+
+.submit {
+  padding-right: 5px;
+  padding-left: 0;
+}
+
+.btn {
+  background-color: #F33;
+  border-radius: 3em;
+  font-weight: bold;
+}
+
+#mce-error-response {
+  color: #F33;
+}
+
+#mce-success-response {
+  color: #3F3;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+h4 {
+  margin-bottom: 30px;
+  font-size: 1em;
+  color: #CCC;
+}
+
+@media (max-width: 768px) {
+  header {
+    margin: 40px auto;
+  }
+
+  form {
+    margin: 30px auto 10px;
+  }
+
+  strong {
+    font-size: 1.2em !important;
+  }
+
+  span {
+    font-size: .6em !important;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+}
